@@ -1,0 +1,17 @@
+/*Upper page*/
+.heading {
+    color: rebeccapurple;
+    align-items: center;
+}
+
+/*Body of the page && it's content*/
+    /*Outer body && Multiple/cover items*/
+.middle_page {
+    background-color: lightblue;
+    display: inline-flexbox;
+    justify-content: center;
+}
+
+    /*Inner body && single-items*/
+
+/*bottom_page*/
