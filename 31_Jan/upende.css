@@ -15,6 +15,9 @@
     display: inline-flexbox;
     justify-content: center;
 }
+.m_heading {
+    color: white;
+}
 
 /*bottom_page*/
 .bottom_page {
