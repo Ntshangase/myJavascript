@@ -1,8 +1,8 @@
 /*Upper page*/
 .upper_page {
     background-color: aqua;
-     /** the space between the dic and its content*/
-     /*the space between the page/screen and the div.*/
+     /** padding - the space between the dic and its content*/
+     /* margin - the space between the page/screen and the div.*/
 }
 .heading {
     color: rebeccapurple;
@@ -12,8 +12,7 @@
 /*middle_page*/
 .middle_page {
     background-color: lightblue;
-    display: inline-flexbox;
-    justify-content: center;
+    padding: 4px;
 }
 .m_heading {
     color: white;

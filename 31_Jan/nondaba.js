@@ -1,1 +1,5 @@
-console.log("hello world");
+
+
+function counter () {
+    console.log("hello world");
+}
