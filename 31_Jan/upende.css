@@ -1,17 +1,22 @@
 /*Upper page*/
+.upper_page {
+    background-color: aqua;
+     /** the space between the dic and its content*/
+     /*the space between the page/screen and the div.*/
+}
 .heading {
     color: rebeccapurple;
-    align-items: center;
+    padding-left: 25%;
 }
 
-/*Body of the page && it's content*/
-    /*Outer body && Multiple/cover items*/
+/*middle_page*/
 .middle_page {
     background-color: lightblue;
     display: inline-flexbox;
     justify-content: center;
 }
 
-    /*Inner body && single-items*/
-
 /*bottom_page*/
+.bottom_page {
+    background-color: red;
+}
