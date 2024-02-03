@@ -25,4 +25,10 @@
     margin-left: 20px;
     color: black;
     background-color: rebeccapurple;
+    border-radius: 10px;
+}
+.button:hover {
+    background-color: bisque;
+    border-color: yellowgreen;
+    border-width: 3px;
 }
