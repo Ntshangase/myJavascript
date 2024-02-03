@@ -1,9 +1,7 @@
 /*Upper page*/
-.upper_page {
-    background-color: aqua;
      /** padding - the space between the dic and its content*/
      /* margin - the space between the page/screen and the div.*/
-}
+     
 .heading {
     color: rebeccapurple;
     padding-left: 25%;
@@ -11,7 +9,6 @@
 
 /*middle_page*/
 .middle_page {
-    background-color: lightblue;
     padding: 4px;
 }
 .m_heading {
@@ -19,6 +16,3 @@
 }
 
 /*bottom_page*/
-.bottom_page {
-    background-color: red;
-}
