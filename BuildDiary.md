@@ -5,3 +5,6 @@
 - Just installed a  spell checker now the problem is it will make my writing of isizulu hard, Yabanona nje
 - The Goal : Build a website everyweek using just HTML/CSS/JAVASCRIPT, This will close the I'm not good enough gap. Now i have no direct need for anymore online courses on these mentioned languaged, the just build box -> I tick that(supahot fire).
 - The Bar : I will build presentation worthy websites so that i don't end up building the same useless stuff over and over again. Ohhh, maybe I should define what i will build and what the website should be able to do before i start building everyweek.
+
+# 2_feb
+- Build an Interactive website.
