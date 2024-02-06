@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simphiwe</title>
     <link rel="stylesheet" type="text/css" href="styles.css"/>
     <script type="text/javascript" src="main.js" ></script>
 </head>
@@ -14,22 +14,24 @@
         <h2>Welcome to the gender reveal website, where we predict the gender of your baby using AI</h2>
         <p>Please fill in the form below for more accurate data.</p>
         <div>
-            <form>
+            <form method="get">
                 <div>
                     <h2>Fill in the form below </h2>
                     <div>
                         <label>Mother Age</label>
-                        <input required />
+                        <input id="motherAge" required />
                     </div>
                     <div>
                         <label> Father Age</label>
-                        <input required />
-                    </div>
-                    <div>
-                        <button>Submit</button>
+                        <input id="fatherAge" required />
                     </div>
                 </div>
+                <div>
+                    <button onclick="Submit()" type="button">Submit</button>
+                    <button class="btn_reveal" onclick="Reveal()" type="button">Reveal</button>
+                </div>
             </form>
+            
         </div>
     </div>
 </body>
