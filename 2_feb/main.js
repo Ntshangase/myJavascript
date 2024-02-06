@@ -15,14 +15,14 @@
     }
 
     function Reveal(){
-        let Age = x + y;
+        let Age = Number(x) + Number(y);
         let gender;
         // if Age/2 < 60, gender = non-binary
-        if(Age/2 < 60){
+        if(Age <= 60){
             gender = "Non-Binary";
-        }else if(Age/2 > 60 && Age%2 === 0){
+        }else if(Age > 60 && Age%2 === 0){
             gender = "male"
-        }else if (Age/2 > 60 && Age%2 != 0){
+        }else if (Age > 60 && Age%2 != 0){
             gender = "female"
         }
         
