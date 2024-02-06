@@ -8,6 +8,7 @@
     function Submit(){
         
         x = document.getElementById("motherAge").value;
+        document.getElementById("motherAge").value= '';
     }
 
     function Reveal(){
