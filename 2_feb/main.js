@@ -33,8 +33,23 @@
     }
     
 // This means i will need a page to redirect to to reveal the gender or an Alert/Pop-up will be fine
+// display function
+function Display() {
+    let page = document.getElementById("show"); 
+    let hidden = page.getAttribute("hidden");
 
-let createPanel = {
-    type: "detached_panel",
-    // URL:,
+    if(hidden){
+        page.removeAttribute("hidden");
+        //button.innerText("clear")
+    }else {
+        page.setAttribute("hidden", "hidden");
+        //button.innerText("Veza");
+    }
 }
+
+// definde the button to listen too, so we can handle events.
+// const btn = document.getElementById("Display");
+
+// btn.addEventListener(("click"),() => {
+
+// });
