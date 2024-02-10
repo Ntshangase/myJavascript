@@ -33,3 +33,8 @@
     }
     
 // This means i will need a page to redirect to to reveal the gender or an Alert/Pop-up will be fine
+
+let createPanel = {
+    type: "detached_panel",
+    URL:,
+}
