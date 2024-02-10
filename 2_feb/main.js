@@ -43,5 +43,5 @@ function Reveal() {
 	// try-write javascript html.
 	document.getElementById(
 		"static"
-	).innerHTML = `The Gender of your child is: ${gender} and your age is: ${Age} `;
+	).innerHTML = `The Gender of your child is: ${gender} `;
 }
