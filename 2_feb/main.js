@@ -45,4 +45,7 @@ function Display() {
         page.setAttribute("hidden", "hidden");
         //button.innerText("Veza");
     }
+
+    // try-write javascript html.
+    document.getElementById("static").innerHTML = `Hello world`
 }
