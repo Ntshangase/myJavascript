@@ -46,10 +46,3 @@ function Display() {
         //button.innerText("Veza");
     }
 }
-
-// definde the button to listen too, so we can handle events.
-// const btn = document.getElementById("Display");
-
-// btn.addEventListener(("click"),() => {
-
-// });
