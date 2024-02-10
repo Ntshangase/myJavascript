@@ -11,6 +11,12 @@
     font-size: 33px;
 }
 
+.label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 .button_div {
     margin-left: 20px;
     margin-top: 10px;
@@ -20,8 +26,11 @@
     background-color: lightblue;
     color: blue;
     padding: 5px;
+    border:solid;
     border-radius: 6px;
+    font-weight: bold;
 }
 .button:hover {
     background-color: lightgreen;
+    color: black;
 }
