@@ -1,0 +1,23 @@
+
+.form {
+    border: solid;
+    border-radius: 8px;
+    border-width: 5px;
+    
+}
+
+.form_heading {
+    color: blue;
+    font-size: 33px;
+}
+
+.button {
+    background-color: lightblue;
+    color: blue;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 3px;
+}
+.button:hover {
+    background-color: lightgreen;
+}
