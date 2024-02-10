@@ -36,5 +36,5 @@
 
 let createPanel = {
     type: "detached_panel",
-    URL:,
+    // URL:,
 }
