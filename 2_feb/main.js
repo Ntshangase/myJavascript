@@ -20,14 +20,14 @@
         // if Age/2 < 60, gender = non-binary
         if(Age <= 60){
             gender = "Non-Binary";
-        }else if(Age > 60 && Age%2 === 0){
+        }else if(Age > 60 && Age%2 === 0){ // if Age/2 > 60 && even number, gender = male
             gender = "male"
-        }else if (Age > 60 && Age%2 != 0){
+        }else if (Age > 60 && Age%2 != 0){ // Age2 > 60 && odd number, gender = female
             gender = "female"
         }
         
-    // if Age/2 > 60 && even number, gender = male
-    // Age2 > 60 && odd number, gender = female
+    
+        // console.log
         console.log(Age);
         console.log(gender); 
     }
