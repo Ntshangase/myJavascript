@@ -8,3 +8,5 @@
 
 # 2_feb
 - Build an Interactive website.
+- `the bar ` i build an website that takes in users inputs then uses that input to calculate the probability of the childs gender then outputs the results. 
+- Honed in on my :hover skills. I had to manipulate the DOM which is something i think i should get familiar with as its the way to use javascript through getting somthing from the document using id,class,ect. Also solved for outputing javascript variables in html.innerHTML
