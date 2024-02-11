@@ -11,9 +11,21 @@
     font-size: 33px;
 }
 
+.input {
+    margin: 4px;
+}
 .label {
     font-size: 20px;
     font-weight: bold;
+}
+.placeholder {
+    border: solid;
+}
+.placeholder:hover{
+    border-color: green;
+}
+#fatherAge {
+    margin-left: 5px;
 }
 
 
