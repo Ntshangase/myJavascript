@@ -1,11 +1,4 @@
 
-.form {
-    border: solid;
-    border-radius: 8px;
-    border-width: 5px;
-    
-}
-
 .form_heading {
     color: blue;
     font-size: 33px;
@@ -30,8 +23,8 @@
 
 
 .button_div {
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-left: 45px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 .button {
