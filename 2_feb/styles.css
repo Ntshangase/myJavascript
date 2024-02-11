@@ -34,3 +34,8 @@
     background-color: lightgreen;
     color: black;
 }
+
+#show {
+    font-weight: bold;
+    font-size: 30px;
+}
