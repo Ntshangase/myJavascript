@@ -6,7 +6,7 @@
 - The Goal : Build a website everyweek using just HTML/CSS/JAVASCRIPT, This will close the I'm not good enough gap. Now i have no direct need for anymore online courses on these mentioned languaged, the just build box -> I tick that(supahot fire).
 - The Bar : I will build presentation worthy websites so that i don't end up building the same useless stuff over and over again. Ohhh, maybe I should define what i will build and what the website should be able to do before i start building everyweek.
 
-# 2_feb
+# 5_feb
 - Build an Interactive website.
 - `the bar ` i build an website that takes in users inputs then uses that input to calculate the probability of the childs gender then outputs the results. 
 - Honed in on my :hover skills. I had to manipulate the DOM which is something i think i should get familiar with as its the way to use javascript through getting somthing from the document using id,class,ect. Also solved for outputing javascript variables in html.innerHTML
