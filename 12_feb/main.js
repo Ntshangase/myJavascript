@@ -16,5 +16,11 @@ function changeColor(){
 
 // inster symbol function
 function insert() {
-    console.log(document.getElementById("D").innerHTML);
+    document.getElementById("C").innerHTML = "X";
+}
+
+// restart game
+function restart() {
+    console.log(document.getElementById("table").getElementsByTagName("tdata"));
+    document.getElementById("table").getElementsByTagName("tdata").innerHTML = "";
 }
