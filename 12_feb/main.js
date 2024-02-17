@@ -21,6 +21,10 @@ function insert() {
 
 // restart game
 function restart() {
-    console.log(document.getElementById("table").getElementsByTagName("tdata"));
-    document.getElementById("table").getElementsByTagName("tdata").innerHTML = "";
+    let boxes = document.getElementById("table").getElementsByTagName("td");
+
+    // a loop to iterate through returned collection and set innerHTML = "";
+    for (let count=0; count<boxes.length; count++){
+        boxes[count].innerHTML = "";
+    }
 }
