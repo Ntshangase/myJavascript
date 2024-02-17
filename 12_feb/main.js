@@ -13,3 +13,8 @@ function changeColor(){
 }
 
 // TIC TAC TOE 
+
+// inster symbol function
+function insert() {
+    console.log(document.getElementById("D").innerHTML);
+}
