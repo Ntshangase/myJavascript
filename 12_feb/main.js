@@ -17,19 +17,20 @@ function changeColor() {
 
 // inster symbol function
 function insert() {
+	let xo = document.getElementById("select1").value; //get X/O value
 
-    let xo = document.getElementById("select1").value; //get X/O value
+	let position = document.getElementById("select2").value;
 
-    let position = document.getElementById("select2").value;
-
-    //write to game
-    if (xo != "select"){
-        document.getElementById(`${position}`).innerHTML = `${xo}`;
-    } else {
-        alert("Invalid input selected: X / O");
-    }
-	
-    
+	//write to game
+	if (xo != "select" && position != "selected") {
+		document.getElementById(`${position}`).innerHTML = `${xo}`;
+	} else if (xo != "selected" && position === null ) { // position can never === "selected"
+		alert(" please choose postion to place x/o");
+	} else if (xo === "selected" && position != "selected") {
+		window.alert(" position to place ");
+	} else {
+		alert(" plase select sign + position to move ");
+	}
 }
 
 // restart game

@@ -13,3 +13,5 @@
 
 # 12_feb
 - Impliment Data Structures and algorithems.
+- `the bar` built a <bold>Tic Tac Toe</bold> game. solved a few problems along the way like assigning the value to the drop down select, so that when i get element value i can use that assined value which i made equall to the id off the corresponding bo on the game board.
+- question: does javascript execute all lines in an if-statement?, because i have a false condition(which i expect javascript to skip) but instead javascript is returning an error from that false condition.
