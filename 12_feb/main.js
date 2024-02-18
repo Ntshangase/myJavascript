@@ -17,7 +17,10 @@ function changeColor() {
 
 // inster symbol function
 function insert() {
-    let xo = document.getElementById("select1").value
+
+    let xo = document.getElementById("select1").value; //get X/O value
+
+    //write to game
 	document.getElementById("C").innerHTML = `${xo}`;
     
 }
