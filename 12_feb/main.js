@@ -20,6 +20,8 @@ function insert() {
 
     let xo = document.getElementById("select1").value; //get X/O value
 
+    console.log(document.getElementById("select2"));
+
     //write to game
     if (xo != "select"){
         document.getElementById("C").innerHTML = `${xo}`;

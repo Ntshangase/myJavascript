@@ -1,76 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simphiwe</title>
-    <link rel="stylesheet" type="text/css" href="upende.css" />
-    <script type="text/javascript" src="main.js"></script>
-</head>
-<body id="body">
-    <div>
-        <h3>Data structures and algorithems.</h3>
-        <!-- A button to change backgroundColor-->
-        <button onclick="changeColor()">change</button>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simphiwe</title>
+		<link rel="stylesheet" type="text/css" href="upende.css" />
+		<script type="text/javascript" src="main.js"></script>
+	</head>
+	<body id="body">
+		<div>
+			<h3>Data structures and algorithems.</h3>
+			<!-- A button to change backgroundColor-->
+			<button onclick="changeColor()">change</button>
 
-        <!--Tic tac game-->
-        <table id="table">
-            <tbody>
-                <caption>
-                    <h3>Tic Tac Toe</h3>
-                </caption>
-                <tr class="trow">
-                    <td id="A" class="tdata" contenteditable="true">A</td>
-                    <td id="B" class="tdata">B</td>
-                    <td id="C" class="tdata">C</td>
-                </tr>
-                <tr class="trow">
-                    <td id="D" class="tdata">D</td>
-                    <td id="E" class="tdata">E</td>
-                    <td id="F" class="tdata">F</td>
-                </tr>
-                <tr class="trow">
-                    <td id="G" class="tdata">G</td>
-                    <td id="H" class="tdata">H</td>
-                    <td id="I" class="tdata">I</td>
-                </tr>
-            </tbody>
-        </table>
+			<!--Tic tac game-->
+			<table id="table">
+				<tbody>
+					<caption>
+						<h3>Tic Tac Toe</h3>
+					</caption>
+					<tr class="trow">
+						<td id="A" class="tdata" contenteditable="true">A</td>
+						<td id="B" class="tdata">B</td>
+						<td id="C" class="tdata">C</td>
+					</tr>
+					<tr class="trow">
+						<td id="D" class="tdata">D</td>
+						<td id="E" class="tdata">E</td>
+						<td id="F" class="tdata">F</td>
+					</tr>
+					<tr class="trow">
+						<td id="G" class="tdata">G</td>
+						<td id="H" class="tdata">H</td>
+						<td id="I" class="tdata">I</td>
+					</tr>
+				</tbody>
+			</table>
 
-        <div id="input">
-            <form>
-                <label>X / O:</label>
-                <select id="select1">
-                    <option>select</option>
-                    <option>X</option>
-                    <option>O</option>
-                </select>
-            </form>
+			<div id="input">
+				<form>
+					<label>X / O:</label>
+					<select id="select1">
+						<option>select</option>
+						<option>X</option>
+						<option>O</option>
+					</select>
+				</form>
 
-            <label>Place at:</label>
-            <select>
-                <option>select</option>
-                <optgroup label="first row">
-                    <option>left</option>
-                    <option>center</option>
-                    <option>right</option>
-                </optgroup>
-                <optgroup label="second row">
-                    <option>left</option>
-                    <option>center</option>
-                    <option>right</option>
-                </optgroup>
-                <optgroup label="third row">
-                    <option>left</option>
-                    <option>center</option>
-                    <option>right</option>
-                </optgroup>
-            </select>
-        </div>
-        
-        
-        <button onclick="insert()" class="button">Play</button>
-        <button onClick="restart()" class="button">Restart</button>
-    </div>
-</body>
+				<label>Place at:</label>
+				<select id="select2">
+					<option>select</option>
+					<optgroup label="first row">
+						<option>left</option>
+						<option>center</option>
+						<option>right</option>
+					</optgroup>
+					<optgroup label="second row">
+						<option>left</option>
+						<option>center</option>
+						<option>right</option>
+					</optgroup>
+					<optgroup label="third row">
+						<option>left</option>
+						<option>center</option>
+						<option>right</option>
+					</optgroup>
+				</select>
+			</div>
+
+			<button onclick="insert()" class="button">Play</button>
+			<button onClick="restart()" class="button">Restart</button>
+		</div>
+	</body>
 </html>
