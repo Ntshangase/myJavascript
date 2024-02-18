@@ -15,8 +15,14 @@
 
 /*user input*/
 #input {
-    padding-top: 50px;
-    display: block;
+    padding: 10px;
+    margin-right: 82%;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.label {
+    font-size:large;
 }
 
 .button_container{
