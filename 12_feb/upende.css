@@ -30,4 +30,9 @@
 .button {
     padding: 10px;
     border: solid;
+    border-radius: 8px;
+}
+.button:hover {
+    border-color: blue;
+    border-radius: 12px;
 }
