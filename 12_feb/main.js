@@ -24,7 +24,7 @@ function insert() {
 
     //write to game
     if (xo != "select"){
-        document.getElementById("C").innerHTML = `${xo}`;
+        document.getElementById(`${position}`).innerHTML = `${xo}`;
     } else {
         alert("Invalid input selected: X / O");
     }
