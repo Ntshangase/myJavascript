@@ -19,7 +19,15 @@
     display: block;
 }
 
+.button_container{
+    padding: 15px;
+    margin-right: 80%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
 .button {
-    margin: 10px;
     padding: 10px;
+    border: solid;
 }
