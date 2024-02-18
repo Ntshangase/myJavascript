@@ -20,7 +20,7 @@
                     <h3>Tic Tac Toe</h3>
                 </caption>
                 <tr class="trow">
-                    <td id="A" class="tdata">A</td>
+                    <td id="A" class="tdata" contenteditable="true">A</td>
                     <td id="B" class="tdata">B</td>
                     <td id="C" class="tdata">C</td>
                 </tr>
@@ -37,6 +37,35 @@
             </tbody>
         </table>
 
+        <div id="input">
+            <form>
+                <select>
+                    <option>X</option>
+                    <option>O</option>
+                </select>
+            </form>
+
+            <label>Select where to place:</label>
+            <select>
+                <optgroup label="first row">
+                    <option>left</option>
+                    <option>center</option>
+                    <option>right</option>
+                </optgroup>
+                <optgroup label="second row">
+                    <option>left</option>
+                    <option>center</option>
+                    <option>right</option>
+                </optgroup>
+                <optgroup label="third row">
+                    <option>left</option>
+                    <option>center</option>
+                    <option>right</option>
+                </optgroup>
+            </select>
+        </div>
+        
+        
         <button onclick="insert()" class="button">Play</button>
         <button onClick="restart()" class="button">Restart</button>
     </div>

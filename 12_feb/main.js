@@ -14,10 +14,14 @@ function changeColor(){
 
 // TIC TAC TOE 
 
+// take user input and place it.
+
+
 // inster symbol function
 function insert() {
     document.getElementById("C").innerHTML = "X";
 }
+
 
 // restart game
 function restart() {
