@@ -4,3 +4,6 @@
     display: flex;
     padding: 10px;
 }
+.nav-item {
+    padding-left: 20px;
+}
