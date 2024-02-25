@@ -19,3 +19,4 @@
 # 19_feb
 - Goal - build an website with navigation to second page(at minimum).
 - Javascript is just failing at connecting between 2 HTML Documents, I ahve tried to move around but it's not working, This is a very serious limiting thing for posibilities of my weekly project. The solution is out there though and i will find it.
+    - Found the solution put it's a bad one because i won't be able to apply css to the -module, so i haven't actuall solve the problem. progress
