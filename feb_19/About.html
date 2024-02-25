@@ -6,7 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="to_nav"></div>
+    <div class="to_nav" id="test-div">
+        <script type="module">
+            // import {teaser} from "./modules.js";
+            document.getElementById("test-div").innerHTML = "Html5 testing, direct manipulation";
+        </script>
+    </div>
     <div>
         <h2>This is the About</h2>
     </div>
