@@ -1,8 +1,8 @@
 
+/**A javascript file cannot communicate between 2 Dom at the same time. */
 
-export function teaser () {
-    
-    let text = document.getElementById("testme");
+// There can only be oe Dom.
+export function displayModule () {
 
-    return  text;
+    console.log('back');
 }
