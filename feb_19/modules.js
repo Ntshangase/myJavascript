@@ -1,4 +1,8 @@
 
+
 export function teaser () {
-    return "Hello This is my first module"
+    
+    let text = document.getElementById("testme");
+
+    return  text;
 }
