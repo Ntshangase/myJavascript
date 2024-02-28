@@ -2,7 +2,7 @@
 
 // create arrays for me to select values from.
 
-let admission = ["General", "VIP","VVIP"]
-let prices = [150,350,600];
+let cartElement = 0;
 
-let stock = 10;
+// elements in cart value
+document.getElementById("cartCount").innerHTML = `${cartElement}`;
