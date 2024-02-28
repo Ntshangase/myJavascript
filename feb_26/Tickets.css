@@ -1,8 +1,23 @@
 
 
-#purchase_template {
-    background-color:aliceblue ;
+#general_div {
+    background-color:lightgray ;
     border: solid;
     display: flex;
     justify-content: space-evenly;
+    margin: 10px;
+}
+#vip_div {
+    background-color:lightgray ;
+    border: solid;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+#vvip_div {
+    background-color:lightgray ;
+    border: solid;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
 }
