@@ -1,0 +1,8 @@
+
+
+#purchase_template {
+    background-color:aliceblue ;
+    border: solid;
+    display: flex;
+    justify-content: space-evenly;
+}
