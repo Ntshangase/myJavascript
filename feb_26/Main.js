@@ -3,6 +3,7 @@
 // addTOCartFunctionality
 
 function addToCart() {
-    let itemValue = Number(document.querySelector(".qty").value) ;
+    let itemValue = document.getElementById("select").value;
+    Number(itemValue);
     console.log(itemValue);
 }
