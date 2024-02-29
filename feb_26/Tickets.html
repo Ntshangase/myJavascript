@@ -6,6 +6,7 @@
 		<title>Tickets</title>
 		<link type="text/css" href="./Tickets.css" rel="stylesheet" />
         <script type="module" src="Tickets.js"></script>
+		<script src="Main.js"></script>
 	</head>
 	<body>
         <div>
@@ -23,12 +24,12 @@
 				<p><span>R</span> 150</p>
 			</div>
 			<div> <!--Quantity-->
-				<select class="quantity">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
+				<select class="qty_div">
+                    <option class="qty" value="1">1</option>
+                    <option class="qty" value="2">2</option>
+                    <option class="qty" value="3">3</option>
+                    <option class="qty" value="4">4</option>
+                    <option class="qty" value="5">5</option>
                     <option value="6">6</option>
                     <option value="7">7</option>
                     <option value="8">8</option>
@@ -37,7 +38,7 @@
                 </select>
 			</div>
 			<div> <!--add to cart-->
-				<button>Add to cart</button>
+				<button type="button" onclick="addToCart()">Add</button>
 			</div>
 		</div>
 
@@ -49,7 +50,7 @@
 				<p><span>R</span> 350</p>
 			</div>
 			<div> <!--Quantity-->
-				<select class="quantity">
+				<select class="qty_div">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -75,7 +76,7 @@
 				<p><span>R</span> 600</p>
 			</div>
 			<div> <!--Quantity-->
-				<select class="quantity">
+				<select class="qty_div">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
