@@ -4,6 +4,7 @@
 
 function addToCart() {
     let itemValue = document.getElementById("select").value;
-    Number(itemValue);
+    itemValue = Number(itemValue)
     console.log(itemValue);
+    console.log("proof:  ", itemValue+2)
 }

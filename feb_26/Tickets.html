@@ -23,9 +23,8 @@
 				<p>Gerneral Admission</p>
 				<p><span>R</span> 150</p>
 			</div>
-			<div> <!--Quantity-->
+			<div> <!--Quantity // select option.value seems to be useless(redundancy)-->
 				<select id="select">
-					<option>cars</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -39,7 +38,7 @@
                 </select>
 			</div>
 			<div> <!--add to cart-->
-				<button type="button" onclick="addToCart()">Add</button>
+				<button type="button" onclick="addToCart()">Add To Cart</button>
 			</div>
 		</div>
 
@@ -65,7 +64,7 @@
                 </select>
 			</div>
 			<div> <!--add to cart-->
-				<button>Add to cart</button>
+				<button type="button" onclick="addToCart()">Add To Cart</button>
 			</div>
 		</div>
 
@@ -91,7 +90,7 @@
                 </select>
 			</div>
 			<div> <!--add to cart-->
-				<button>Add to cart</button>
+				<button type="button" onclick="addToCart()">Add To Cart</button>
 			</div>
 		</div>
 	</body>
