@@ -22,28 +22,28 @@ function linear_search() {
 	}
 }
 
-// Binary search.
+// Binary search.  complexity O(logN)
 let boxes = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-a = 3;
+a = 9;
+
 function binarySearch(arr, needle) {
 	let low = 0;
 	let high = arr.length;
 
-	median = Math.floor(low + (high - low) / 2);
-	currentValue = arr[median];
-
 	do {
-
+		//make sure to declare these okes inside as they need to change as the loop is runs
+		median = Math.floor(low + (high - low) / 2);
+		currentValue = arr[median];
+		
 		if (currentValue === needle) {
-			console.log("we have found you beanie :", value)
+			console.log("we have found you beanie :", currentValue);
+			return // very important to break out of for loops
 		} else if (currentValue > needle) {
 			high = median;
 		} else {
 			low = median + 1;
 		}
 	} while (low < high);
-
-    console.log("runned");
 }
 
 //function to run.
