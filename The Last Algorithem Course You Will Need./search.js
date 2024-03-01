@@ -2,8 +2,14 @@
 // node --experimental-modules search.js
 
 //tsting
-function test(){
-    console.log("It starts with me");
+let Stack = [1,2,3,4,5,6,7,8,9];
+let girl = "I love you jesus"
+function test(arr,num){
+    for(let i=0; i<arr.length;i++){
+        console.log(arr[i]);
+    }
+    console.log(num)
+    
 }
 
 //linear sear
@@ -18,6 +24,11 @@ function linear_search(){
     }
 }
 
+// Binary search.
+let Array = [1,2,3,4,5,6,7,8,9]
+function binarySearch(){}
+
+
 
 //function to run.
-linear_search();
+test(Stack,girl);
