@@ -27,9 +27,9 @@
 
 // I have to create my own node in javascript.
 class NewNode{
-    constructor(data){
+    constructor(data, pointer = null){
         this.value = data;
-        this.next = null;   // pointer.
+        this.next = pointer;   
     }
 }
 // I have to create my own linkedList Data Structure which is just an object on objects, on objects.
@@ -41,28 +41,18 @@ class List {
 
 
 function addNode(){
-    // create a new node from node constructor.
-    let node1 = new NewNode("simphiwe");
-    let node2 = new NewNode("ntokozo");
-    let node3 = new NewNode("ntshangase");
-    let node4 = new NewNode("manxanga");
+    // create a new node from node constructor
     let node5 = new NewNode("ntshumo");
+    let node4 = new NewNode("manxanga",node5);
+    let node3 = new NewNode("ntshangase",node4);
+    let node2 = new NewNode("ntokozo",node3);
+    let node1 = new NewNode("simphiwe",node2);
 
     // append the nodes to the list.
     let list1 = new List(node1);
-
-    // set node pointers.
-    node1.next = node2;
-    node2.next = node3;
-    node3.next = node4;
-    node4.next = node5;  // the last node is automaticall at null.
     
     // consoler...
-    console.log(node1);
-    console.log(node2);
-    console.log(node3);
-    console.log(node4);
-    console.log(node5);
+    console.log(list1);
 }
 
 // function to run.
