@@ -42,17 +42,28 @@ class List {
 
 function addNode(){
     // create a new node from node constructor
-    let node5 = new NewNode("ntshumo");
+    let node5 = new NewNode("ntshumo"); // tail.
     let node4 = new NewNode("manxanga",node5);
     let node3 = new NewNode("ntshangase",node4);
     let node2 = new NewNode("ntokozo",node3);
-    let node1 = new NewNode("simphiwe",node2);
+    let node1 = new NewNode("simphiwe",node2);  // head.
 
     // append the nodes to the list.
     let list1 = new List(node1);
     
     // consoler...
-    console.log(list1);
+    //console.log(list1.head.next.next);
+    /**
+     *  first = list1.head(value\next)
+     *  second = list1.head.next(value\next)
+     */
+
+    // iterator.
+    let temp = list1.head;
+    while(temp !== null){ 
+        console.log(temp.value);
+        temp = temp.next;
+    }
 }
 
 // function to run.
