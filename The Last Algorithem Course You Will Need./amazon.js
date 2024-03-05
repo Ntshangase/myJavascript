@@ -33,5 +33,23 @@ function binarySearch(arr,neddle){
     }while(low < high)
 }
 
+// bubble Sort()
+// we are going to iterate through the array and return an X > X + 1
+let cba = [3,5,9,1,4,0]
+function bubbleSort(arr){
+    // iterate through the array to get x
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr.length-1-i; j++) {
+            // if x > x+1 swap using temp
+            if(arr[j] > arr[j+1]){
+                let temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
+    return console.log(arr);
+}
+
 //function to run.
-binarySearch(abc,2);
+bubbleSort(cba);
