@@ -90,8 +90,20 @@ function addElement(value){
 }
 
 // remove element from linkedlist.
+function removelink(index,ll){
+    if(index === 0 || ll.size < index){
+        return console.log("please enter valid index");
+    } else {
+        // don't delete just remove refrence.
+        let current, previous, it = 0;
 
-function removelink(){}
+        current = ll.head;
+        previous = current;
+
+        // iterate for index now
+        
+    }
+}
 
 // a function to find an element in a linkedList.
 function elementFinder(head,n){
