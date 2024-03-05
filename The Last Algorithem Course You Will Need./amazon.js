@@ -51,5 +51,69 @@ function bubbleSort(arr){
     return console.log(arr);
 }
 
+// linkedList
+// i need to be able to find() and element in a linkedList and either remove/return it.
+class newNode{
+    constructor(head, iterator = null){
+    this.value = head;
+    this.next = iterator;
+    }
+}   // i can now create nodes with .value/.next properties.
+
+class linkedList{
+    constructor(node = null){
+        this.head = node;
+        this.size = 0;
+    }
+}   // i can now create a class which points to hear property.
+
+// a function to add elements in a linkedList.
+function addElement(value){
+    let node = new newNode(value); // create a node first.
+    let current ;
+
+    let ll = new linkedList();
+    if(ll.head === null){
+        ll.head = node;
+    } else {
+        current = ll.head; // simqale ekhanda with the iterator.(head[value,next] and size)
+
+        // senzani manje?
+        while(current.next !== null){
+            current = current.next;
+        } // after this is false we execute below
+        current = node;
+    }
+    ll.size++;
+    console.log("added")
+    return console.log(ll);
+}
+
+// remove element from linkedlist.
+
+function removelink(){}
+
+// a function to find an element in a linkedList.
+function elementFinder(head,n){
+    // ll => linkedList and n => n-th element(node.value property.)
+
+    //insert elements to node in reverse for pointer undeclared reference error.
+    let Node5 = new newNode("google");
+    let node4 = new newNode("netflix", Node5);
+    let node3 = new newNode("amazon",node4);
+    let node2 = new newNode("apple",node3);
+    let node1 = new newNode("facebook",node2);
+
+    // institiate linkedList
+    ll = new linkedList(node1); // head should be here.
+
+    // while loop for iteration.
+    let temp = ll.head;
+    // i need the three iterators.
+   
+
+
+}
+
 //function to run.
-bubbleSort(cba);
+addElement("added through function");
