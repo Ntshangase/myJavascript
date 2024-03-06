@@ -23,3 +23,5 @@
 
 # 26_feb
 - Goal - A ticket selling website.
+- amazon interview
+- not everything is to be stored in an array. Data Structures and Algorithems.
