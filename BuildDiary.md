@@ -29,3 +29,4 @@
 - not everything is to be stored in an array. Data Structures and Algorithems.
 - the course of this project might change, I got the *amazon* intern role for *sofware developer engineer*, so in adjusting for that and career alignment(meaning as i grow i need to do harder stuff), march will now be dedicated towards designing what course of action I should take for the rest of the year.
 - Data Structure and Algorithems are the important topic i'm really trying to incorparate in my adventure.
+- maybe just naming the folder with website name instead of dates is an better approach than using dates.
