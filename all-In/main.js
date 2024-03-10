@@ -8,12 +8,15 @@ function shakesHand(side){
     document.getElementById(side).textContent = `${abc[x]}`;
 }
 
-function score(player1, player2){
+function revealWinner(){
     //define who wins each round
 
+    const player1 =  document.getElementById("left").textContent;
+    const player2 =  document.getElementById("right").textContent;
+    //console.log(player1)
     
-    if(player1 === "Rock"){ //rock > scissor
-        switch(abc[x]) {
+    if(player1 === "Rock"){     //leftPlayer is ROck
+        switch(player2) {
             case  "Scissor" :
                 console.log("player1 wins, Rocks crushes scissors.")
             case  "Paper" :
@@ -24,8 +27,8 @@ function score(player1, player2){
                 break;
         }
 
-    }else if(player1 === "Paper") { //Scissors beat paper 
-        switch(abc[x]) {
+    }else if(player1 === "Paper") {     //leftPlayer is Paper
+        switch(player2) {
             case  "Scissor" :
                 console.log("player2 wins, Scissors cuts Paper.")
             case  "Paper" :
@@ -36,8 +39,8 @@ function score(player1, player2){
                 break;
         }
 
-    }else if(player1 === "Scissors") {    //Paper beats rock
-        switch(abc[x]) {
+    }else if(player1 === "Scissors") {      //leftPlayer is Scissors
+        switch(player2) {
             case  "Scissor" :
                 console.log("draw, Player1 + Player2 are both Scissors.")
             case  "Paper" :
