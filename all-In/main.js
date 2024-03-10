@@ -17,7 +17,8 @@ function revealWinner(){
     if(player1 === "Rock"){     //leftPlayer is ROck
         switch(player2) {
             case  "Scissors" :
-                console.log("player1 wins, Rock crushes Scissors.")
+                console.log("player1 wins, Rock crushes Scissors.");
+                break;
             case  "Paper" :
                 console.log("player2 wins, Paper covers Rock.");
                 break;
