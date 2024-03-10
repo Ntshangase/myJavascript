@@ -5,8 +5,8 @@ function shakesHand(side){
     const abc = ["Rock","Paper","Scissors"]
     let x = Math.floor(Math.random() * 3);
     //console.log(side); side arrives here correct
-    //side = "left"
-    document.getElementById("left").innerHTML = `${abc[x]}`
+    let tag = document.getElementById(side);
+    console.log(tag);
     console.log(abc[x]);
 }
 
