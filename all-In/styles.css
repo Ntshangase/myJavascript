@@ -1,0 +1,13 @@
+
+
+.output {
+    border: solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
