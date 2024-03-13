@@ -9,6 +9,7 @@ function changeColor() {
 	document.getElementById("body").style.backgroundColor = `${
 		array[Math.floor(Math.random() * array.length)]
 	}`;
+	
 }
 
 // TIC TAC TOE
