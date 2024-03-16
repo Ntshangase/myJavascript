@@ -30,3 +30,9 @@
 - the course of this project might change, I got the *amazon* intern role for *sofware developer engineer*, so in adjusting for that and career alignment(meaning as i grow i need to do harder stuff), march will now be dedicated towards designing what course of action I should take for the rest of the year.
 - Data Structure and Algorithems are the important topic i'm really trying to incorparate in my adventure.
 - maybe just naming the folder with website name instead of dates is an better approach than using dates.
+
+# 18_march
+- what a week.
+- From school project to sde docs it's been busy.
+- this seem a bit clearer though, the areas of focus are school, zuri, myJavascript. with myJavascript its timing is perfect and right, its goal is to learcn hard skills which can enable me to be competent as a junior sde. with zuri I still need to find the right time for it as it might require me to do more as i progress in stages, what I do know for now though is that i can be up to date with what's going on as i can check slack even in class. with school, it has first dibs on the late night shift 8-11, and also first dibs on the day especially with that time table. 
+- with myJavascript there is also contestation since the arival of dsa java.
