@@ -1,0 +1,10 @@
+
+   nav ul {
+    list-style: none;
+    position: fixed; top: 0;
+  } 
+  
+  nav li {
+    display: inline;
+  }
+  
