@@ -1,41 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="styles.css" type="text/css" rel="stylesheet" />
-    <link href="mediaqueries.css" type="text/css" rel="stylesheet" />
-</head>
-<body>
-    <nav id="desktop-nav">
-        <div class="logo">Simphiwe Ntshangase</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Simphiwe Ntshangase</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toogleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links"> 
-                <li><a href="#home" onclick="toogleMenu()">Home</a></li>
-                <li><a href="#about" onclick="toogleMenu()">About</a></li>
-                <li><a href="#project" onclick="toogleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toogleMenu()">Contact</a></li>
-            </div>
-        </div>
-    </nav>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+		<link href="styles.css" type="text/css" rel="stylesheet" />
+		<link href="mediaqueries.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<nav id="desktop-nav">
+			<div class="logo">Simphiwe Ntshangase</div>
+			<div>
+				<ul class="nav-links">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#project">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<nav id="hamburger-nav">
+			<div class="logo">Simphiwe Ntshangase</div>
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toogleMenu()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="menu-links">
+					<li><a href="#home" onclick="toogleMenu()">Home</a></li>
+					<li><a href="#about" onclick="toogleMenu()">About</a></li>
+					<li><a href="#project" onclick="toogleMenu()">Projects</a></li>
+					<li><a href="#contact" onclick="toogleMenu()">Contact</a></li>
+				</div>
+			</div>
+		</nav>
 
-    <script src="main.js"></script>
-</body>
+		<section id="home">
+			<div class="section_pic-container">
+				<img src="./assets/profilephoto.png" alt="profile picture" />
+			</div>
+			<div class="section_text">
+				<p class="section_text_p1">Hello, I'm</p>
+				<h1>Simphiwe Ntshangase</h1>
+				<p class="section_text_p2">Software Engineer</p>
+				<div class="btn-container">
+					<button
+						class="btn btn-color-2"
+						onclick="window.open('./assets/simphiweResume.pdf')"
+					>
+						Download CV
+					</button>
+					<button
+						class="btn btn-color-1"
+						onclick="window.location.href='./#contact'"
+					>
+						Contact Info
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<script src="main.js"></script>
+	</body>
 </html>
