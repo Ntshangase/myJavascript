@@ -290,3 +290,9 @@ section {
     width: 400px;
     margin: auto 0;
 }
+
+/*Progjects*/
+
+#project {
+    position: relative;
+}
