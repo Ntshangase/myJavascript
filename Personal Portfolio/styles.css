@@ -282,6 +282,7 @@ section {
 .section_container {
     gap: 4rem;
     height: 80%;
+    display: flex;
 }
 
 .section_pic_container {
