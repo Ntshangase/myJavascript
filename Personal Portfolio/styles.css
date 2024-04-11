@@ -291,20 +291,20 @@ section {
     margin: auto 0;
 }
 
-/*Progjects*/
+/*Skills*/
 
-#project {
+#skill {
     position: relative;
 }
 
-.project_subtitle {
+.skill_subtitle {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
 
-.project_details_container {
+.skill_details_container {
     display: flex;
     justify-content: center;
     flex-direction: column;
