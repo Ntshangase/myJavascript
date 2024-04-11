@@ -291,6 +291,32 @@ section {
     margin: auto 0;
 }
 
+/*Project*/
+#project {
+    position:relative;
+}
+
+.color_container {
+    border-color: rgb(163, 163, 163);
+    border-color: rgb(250, 250, 250);
+}
+
+.project_image {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project_title {
+    margin: 1rem;
+    color: black;
+}
+
+.project_btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
 /*Skills*/
 
 #skill {
@@ -329,3 +355,4 @@ article {
 article .icon {
     cursor: default;
 }
+
