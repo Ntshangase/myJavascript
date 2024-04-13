@@ -259,10 +259,6 @@ section {
     display: flex;
 }
 
-.about_pic {
-    border-radius: 2rem;
-}
-
 .arrow {
     position: absolute;
     right: -5rem;
@@ -283,12 +279,6 @@ section {
     gap: 4rem;
     height: 80%;
     display: flex;
-}
-
-.section_pic_container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
 }
 
 /*Project*/
